@@ -58,7 +58,7 @@ while getgenv().god and task.wait() do
             if game:GetService("Players").LocalPlayer.Character and game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
                 game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position, ball.Position)
                 if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Highlight") then
-                    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = ball.CFrame * CFrame.new(0, 0, (ball.Velocity).Magnitude * -0.5)
+                    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = ball.CFrame * CFrame.new(0, 0, (ball.Velocity).Magnitude * -0.6)
                     game:GetService("ReplicatedStorage").Remotes.ParryButtonPress:Fire()
                 end
             end
@@ -469,6 +469,16 @@ AddButton(Main, {
   Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
     end
+})
+
+local Main = MakeTab({Name = "Discord"})
+
+local section = AddSection(Main, {"Discord"})
+
+AddButton(Main, {
+  Name = "Discord Link",
+  Callback = function()      setclipboard("https://discord.gg/bNbFTf73Gt")      toclipboard("https://discord.gg/bNbFTf73Gt")
+  end
 })
 
 MakeNotifi({
