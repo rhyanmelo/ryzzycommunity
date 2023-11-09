@@ -463,19 +463,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/SPDM-Team/Arceus-X-NE
     end
 })
 
-AddButton(Main, {
-  Name = "FLY",
-  Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/Urths1KT"))()
-    end
-})
-
-AddButton(Main, {
-  Name = "AIMBOT",
-  Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/SWmgzx5A"))()
-    end
-})
 
 AddButton(Main, {
   Name = "SCRIPT UNIVERSAL QUE TEM TUDO",
