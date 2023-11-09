@@ -34,7 +34,7 @@ local Main = MakeTab({Name = "BLADE BALL"})
 local section = AddSection(Main, {"Scripts"})
 
 AddButton(Main, {
-  Name = "BEDOL HUB",
+  Name = "BEDOL HUB NEW",
   Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/Loaders/main/Blade_Ball.lua"))()
     end
@@ -68,12 +68,40 @@ while getgenv().god and task.wait() do
   end
 })
 
+AddButton(Main, {
+  Name = "MTRIET BLADE BALL",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "CATALYST HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c3e9589a7971b17dd4404e4523d0b081.lua"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "FUJI HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://shz.al/~free-fuji-v2"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "ALCHEMY HUB",
+  Callback = function()
+v=1;loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
+    end
+})
+
 local Main = MakeTab({Name = "BLOX FRUIT"})
 
 local section = AddSection(Main, {"Scripts"})
 
 AddButton(Main, {
-  Name = "MAKURO HUb",
+  Name = "MAKURO HUB",
   Callback = function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
     end
@@ -137,14 +165,21 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Scri
 })
 
 AddButton(Main, {
-  Name = "Sea Hub",
+  Name = "SEA HUB",
   Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AltsegoD/script/master/loader.lua"))()
     end
 })
 
 AddButton(Main, {
-  Name = "Auto Colect Fruit",
+  Name = "PADO HUB",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+    end
+})
+
+AddButton(Main, {
+  Name = "AUTO FRUTA",
   Callback = function()
 collectOnlyFruitSpawn = false --[ TRUE / FALSE ]--
  loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/BetaFruitFinder"))()
@@ -415,14 +450,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/SPDM-Team/Arceus-X-NE
 })
 
 AddButton(Main, {
-  Name = "BTools",
+  Name = "BTOOLS",
   Callback = function()
 loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
     end
 })
 
 AddButton(Main, {
-  Name = "ShiftLock",
+  Name = "SHIFTLOCK",
   Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SPDM-Team/Arceus-X-NEO-public/main/Scripts/ArceusX-Shiftlock.lua"))()
     end
