@@ -1,0 +1,417 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/ryzzylib")))()
+
+MakeWindow({
+  Hub = {
+    Title = "Ryzzy Hub",
+    Animation = "Ryzzy"
+  },
+  Key = {
+    KeySystem = true,
+    Title = "Key System",
+    Description = "",
+    KeyLink = "",
+    Keys = {"123", "321"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Executando o script...",
+      Incorrectkey = "A chave está incorreta",
+      CopyKeyLink = "Copiado para a área de transferência"
+    }
+  }
+})
+
+MinimizeButton({
+  Image = "rbxassetid://11486398809",
+  Size = {40, 40},
+  Color = Color3.fromRGB(0, 0, 0),
+  Corner = true,
+  Stroke = false,
+  StrokeColor = Color3.fromRGB(255, 0, 0)
+})
+
+local Main = MakeTab({Name = "BLADE BALL"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "BEDOL HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/Loaders/main/Blade_Ball.lua"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "VECTOR HUB",
+  Callback = function()
+                _G.Mode = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MB*PC.lua"))()
+    end
+})
+
+local Main = MakeTab({Name = "BLOX FRUIT"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "MAKURO HUb",
+  Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+    end
+})
+
+AddButton(Main, {
+  Name = "SONIC HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/Protected-25.lua"))() 
+    end
+})
+
+AddButton(Main, {
+  Name = "NEVA HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "ADEL HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))() 
+    end
+})
+
+AddButton(Main, {
+  Name = "DOMINIC HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))() 
+    end
+})
+
+AddButton(Main, {
+  Name = "VECTOR HUB",
+  Callback = function()
+                _G.Mode = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MB*PC.lua"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "HOHO HUB",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    end
+})
+
+AddButton(Main, {
+  Name = "TSUO HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "MTRIET",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "Sea Hub",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AltsegoD/script/master/loader.lua"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "Auto Colect Fruit",
+  Callback = function()
+collectOnlyFruitSpawn = false --[ TRUE / FALSE ]--
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/BetaFruitFinder"))()
+    end
+})
+
+local Main = MakeTab({Name = "ANIME FIGHTING X"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "SKY HUB",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
+    end
+})
+
+AddButton(Main, {
+  Name = "MIUMI HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/AnimeFightingX"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "PROJECT NEXUS",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "RAITO HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "REAPER HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/loader.lua"))()
+    end
+})
+
+local Main = MakeTab({Name = "KING LEGACY"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "HYPER HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "HOHO HUb",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    end
+})
+
+AddButton(Main, {
+  Name = "ZEN HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/main/Loader", true))()
+    end
+})
+
+local Main = MakeTab({Name = "PET SIM X"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "CAT HUB",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Senpaigmx/CatHubV2/main/CatHubV2.lua'))()
+    end
+})
+
+local Main = MakeTab({Name = "ANIME ADVENTURE"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "TRAP HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/TrapHub.lua"))()
+    end
+})
+
+local Main = MakeTab({Name = "YOUR BIZARRE ADVENTURE"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "YBA SCRIPT",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JuninhoOGado/ScriptsSite/main/Script98"))()
+    end
+})
+
+local Main = MakeTab({Name = "ANIME DIMENSIOS"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "AD SCRIPT",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SmellLikeHacker/MyEdit/main/Hub"))()
+    end
+})
+
+local Main = MakeTab({Name = "Strongest Battlegrounds Script"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "SB SCRIPT",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
+    end
+})
+
+local Main = MakeTab({Name = "All Star Tower Defense"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "ASTD HUB",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
+    end
+})
+
+local Main = MakeTab({Name = "ANIME FORCE"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "AF SCRIPT",
+  Callback = function()
+getgenv().Settings = {
+    ["Auto Farm"] = {
+        ["Mob Select"] = "Nami", 
+        ["Auto Mob Farm"] = false,
+    	["Auto Collect Coins"] = false,
+        ["Auto Click"] = false,
+
+        ["Auto Unlock Maps"] = false,
+        ["Auto Upgrade Aura"] = false,
+        ["Auto Rank Up"] = false
+    },
+    ["Mission"] = {
+        ["Auto Use Shiny Boost"] = false, 
+        ["Auto Use Coins Boost"] = false, 
+    	["Auto Use Energy Boost"] = false,
+    	["Auto Use Luck Boost"] = false,
+
+        ["Equip Best"] = false,
+
+        ["Auto Upgrade Coins"] = false,
+        ["Auto Upgrade Energy"] = false,
+        ["Auto Upgrade Storage"] = false,
+        ["Auto Upgrade Equip"] = false,
+        ["Auto Upgrade Boat Speed"] = false
+    },
+    ["Misc"] = {
+    	["WalkSpeed"] = 43, -- Default Speed
+    	["Infinite Jump"] = false,
+        ["Name Tag"] = false,
+
+        ["Redeem Code"] = false,
+
+    	["Font"] = Enum.Font.Fantasy,
+    	["Color"] = Color3.fromRGB(173, 48, 48),
+    	["WaterMark"] = true
+    }
+}
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/qxxpc/Script/main/Anime%20Force%20Simulator"))()
+    end
+})
+
+local Main = MakeTab({Name = "ANIME CHAMPIOS"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "SKY HUB",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
+    end
+})
+
+AddButton(Main, {
+  Name = "FAZIUM HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "SHADOW HUB",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/xShadow1234/HarPy/main/HarPy_loader.lua'))()
+    end
+})
+
+AddButton(Main, {
+  Name = "BANANA HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/diepedyt/bui/main/temporynewkeysystem.lua"))()
+    end
+})
+
+local Main = MakeTab({Name = "HAZE PIECE"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "MYSTIC HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mo061/MysticHub/main/README.md"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "THUNDER Z HUB",
+  Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/Loader/AllGame.lua')))()
+    end
+})
+
+AddButton(Main, {
+  Name = "MIUMI HUB",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bunny42312/script/main/hazepiece"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "HYPER HUB",
+  Callback = function()
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+    end
+})
+
+local Main = MakeTab({Name = "UNIVERSAL"})
+
+local section = AddSection(Main, {"Scripts"})
+
+AddButton(Main, {
+  Name = "INFINITE YIELD",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "KEYBOARD",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SPDM-Team/Arceus-X-NEO-public/main/Scripts/ArceusX-Keyboard.lua"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "BTools",
+  Callback = function()
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "ShiftLock",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SPDM-Team/Arceus-X-NEO-public/main/Scripts/ArceusX-Shiftlock.lua"))()
+    end
+})
+
+
+
+MakeNotifi({
+  Title = "Ryzzy Hub",
+  Text = "Seja Bem Vindo",
+  Time = 5
+})
