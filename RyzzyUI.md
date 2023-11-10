@@ -1,5 +1,4 @@
-# Ryzzy Community Library
-## Library 🇧🇷
+# Ryzzy Community Library 🇧🇷
 Discord 
 https://discord.gg/3VEWRNvryF
 
