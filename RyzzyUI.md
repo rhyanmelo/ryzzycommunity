@@ -1,10 +1,17 @@
 # Ryzzy Community Library
 Purple Theme
+Rede Treme
 ## Library 🇧🇷
 Discord 
 https://discord.gg/3VEWRNvryF
+
+#Purple Theme 
 ```lua
 local RyzzyLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/ryzzylib")))()
+```
+##Red Theme 
+```lua
+local RyzzyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/redtheme"))()
 ```
 
 ## Cria a janela Inicial
