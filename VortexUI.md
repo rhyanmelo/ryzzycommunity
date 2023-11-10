@@ -31,7 +31,7 @@ MakeWindow({
 
 --[[
   Hub = {
-    Title = "Vortex" -- <string> Titulo do seu script
+    Title = "Ryzzy" -- <string> Titulo do seu script
     Animation = "by : Rhyan" -- <string> Adiciona um texto na animacão do seu HUB
   },
   Key = {
@@ -86,13 +86,13 @@ local Main = MakeTab({Name = "Main"})
 Cria uma notificacão
 ```lua
 MakeNotifi({
-  Title = "Vortex",
+  Title = "Ryzzy",
   Text = "Notificação teste",
   Time = 5
 })
 
 --[[
-  Title = "Vortex" <string> titulo da notificação
+  Title = "Ryzzy" <string> titulo da notificação
   Text = "Notificação teste" <string> descrição da notificação
   Time = 5 <number> tempo da notificação
 ]]
