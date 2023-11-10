@@ -1,15 +1,15 @@
 # Ryzzy Community Library
-Purple Theme
-Rede Treme
+Tema Roxo 
+Tema Vermelho 
 ## Library 🇧🇷
 Discord 
 https://discord.gg/3VEWRNvryF
 
-## Purple Theme 
+## Tema Roxo 
 ```lua
 local RyzzyLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/ryzzylib")))()
 ```
-## Red Theme 
+## Tema Vermelho 
 ```lua
 local RyzzyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/redtheme"))()
 ```
