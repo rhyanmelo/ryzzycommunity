@@ -90,7 +90,7 @@ MakeNotifi({
 })
 
 --[[
-  Title = "REDz HUB" <string> titulo da notificação
+  Title = "Vortex" <string> titulo da notificação
   Text = "Notificação teste" <string> descrição da notificação
   Time = 5 <number> tempo da notificação
 ]]
