@@ -1,5 +1,6 @@
 # Ryzzy Community Library
 Tema Roxo 
+
 Tema Vermelho 
 ## Library 🇧🇷
 Discord 
