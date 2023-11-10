@@ -1,6 +1,7 @@
 # Ryzzy Community Library
 Purple Theme
 ## Library
+🇧🇷🇧🇷
 Discord 
 https://discord.gg/3VEWRNvryF
 ```lua
