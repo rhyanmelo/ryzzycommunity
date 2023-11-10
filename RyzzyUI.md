@@ -1,9 +1,4 @@
 # Ryzzy Community Library
-# Tema Roxo 
-
-# Tema Vermelho 
-
-#Tema Verde
 ## Library 🇧🇷
 Discord 
 https://discord.gg/3VEWRNvryF
