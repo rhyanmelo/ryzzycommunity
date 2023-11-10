@@ -1,7 +1,9 @@
 # Ryzzy Community Library
-Tema Roxo 
+# Tema Roxo 
 
-Tema Vermelho 
+# Tema Vermelho 
+
+#Tema Verde
 ## Library 🇧🇷
 Discord 
 https://discord.gg/3VEWRNvryF
@@ -13,6 +15,10 @@ local RyzzyLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhy
 ## Tema Vermelho 
 ```lua
 local RyzzyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/redtheme"))()
+```
+## Tema Verde
+```lua
+local RyzzyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/greentheme"))()
 ```
 
 ## Cria a janela Inicial
