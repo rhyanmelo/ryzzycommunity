@@ -1,6 +1,7 @@
 # Ryzzy Community Library
 Purple Theme
 ## Library
+https://discord.gg/3VEWRNvryF
 ```lua
 local RyzzyLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/ryzzylib")))()
 ```
