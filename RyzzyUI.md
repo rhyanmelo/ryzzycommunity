@@ -8,11 +8,16 @@ local RyzzyLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhy
 ```
 ## Tema Vermelho 
 ```lua
-local RyzzyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/redtheme"))()
+local RyzzyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/redtheme")))()
 ```
 ## Tema Verde
 ```lua
-local RyzzyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/greentheme"))()
+local RyzzyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/greentheme")))()
+```
+
+## Tema Ametista 
+```lua
+local RyzzyLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/amethysttheme")))()
 ```
 
 ## Cria a janela Inicial
