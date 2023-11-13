@@ -2,6 +2,8 @@
 Discord 
 https://discord.gg/3VEWRNvryF
 
+    * [Scripts for games roblox](https://pastebin.com/bLa4J58g)
+
 ## Tema Roxo 
 ```lua
 local RyzzyLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/ryzzylib")))()
