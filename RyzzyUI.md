@@ -2,8 +2,6 @@
 Discord 
 https://discord.gg/3VEWRNvryF
 
-        * [Tests](https://regexr.com/)
-
 ## Tema Roxo 
 ```lua
 local RyzzyLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/ryzzylib")))()
