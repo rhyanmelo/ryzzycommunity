@@ -9,7 +9,7 @@ MakeWindow({
     KeySystem = true,
     Title = "Key System",
     Description = "ON",
-    KeyLink = "https://seulink.digital/LmcP",
+    KeyLink = "https://seulink.digital/1mIWug",
     Keys = {"RYZZY-HUB1232718282826329", "Ryzzyvida"},
     Notifi = {
       Notifications = true,
