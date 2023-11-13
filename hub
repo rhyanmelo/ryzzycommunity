@@ -8,9 +8,9 @@ MakeWindow({
   Key = {
     KeySystem = true,
     Title = "Key System",
-    Description = "",
-    KeyLink = "",
-    Keys = {"123", "321"},
+    Description = "ON",
+    KeyLink = "https://seulink.digital/LmcP",
+    Keys = {"RYZZY-HUB1232718282826329", "Ryzzyvida"},
     Notifi = {
       Notifications = true,
       CorrectKey = "Executando o script...",
