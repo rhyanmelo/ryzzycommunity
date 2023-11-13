@@ -2,7 +2,7 @@
 Discord 
 https://discord.gg/3VEWRNvryF
 
-    * [Scripts for games roblox](https://pastebin.com/bLa4J58g)
+        * [Tests](https://regexr.com/)
 
 ## Tema Roxo 
 ```lua
