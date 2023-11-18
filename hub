@@ -1,4 +1,4 @@
-local RyzzyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/redtheme"))()
+local RyzzyLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/ryzzylib")))()
 
 MakeWindow({
   Hub = {
@@ -31,11 +31,11 @@ MinimizeButton({
 
 local Main = MakeTab({Name = "INFORMATION"})
 
-local section = AddSection(Main, {""})
+local section = AddSection(Main, {"."})
 
 local Paragraph = AddParagraph(Main, {"RYZZY HUB"})
 
-local Paragraph = AddParagraph(Main, {"Entre no Discord da Ryzzy Community,join the Ryzzy Community Discord"})
+local Paragraph = AddParagraph(Main, {"Entre no Discord da Ryzzy Community"})
 
 AddButton(Main, {
   Name = "Discord Link",
