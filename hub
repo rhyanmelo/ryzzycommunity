@@ -1,5 +1,5 @@
-local RyzzyLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Rhyankkj/UI.library/main/ryzzylib")))()
-
+local RyzzyLib = 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Source.lua"))()
 MakeWindow({
   Hub = {
     Title = "Ryzzy Hub",
@@ -31,11 +31,11 @@ MinimizeButton({
 
 local Main = MakeTab({Name = "INFORMATION"})
 
-local section = AddSection(Main, {"."})
+local section = AddSection(Main, {""})
 
 local Paragraph = AddParagraph(Main, {"RYZZY HUB"})
 
-local Paragraph = AddParagraph(Main, {"Entre no Discord da Ryzzy Community"})
+local Paragraph = AddParagraph(Main, {"Entre no Discord da Ryzzy Community,join the Ryzzy Community Discord"})
 
 AddButton(Main, {
   Name = "Discord Link",
@@ -67,8 +67,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2")
 AddButton(Main, {
   Name = "VECTOR HUB",
   Callback = function()
-                _G.Mode = "English"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MB*PC.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MB*PC.lua"))();
     end
 })
 
@@ -171,7 +170,7 @@ AddButton(Main, {
   Name = "VECTOR HUB",
   Callback = function()
                 _G.Mode = "English"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MB*PC.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MB*PC.lua"))();
     end
 })
 
